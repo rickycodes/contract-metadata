@@ -6,4 +6,809 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/MetaMask/controllers/compare/v1.35.0...HEAD
+## [1.35.1]
+### Uncategorized
+- add Unreleased link reference
+- add CHANGELOG.md
+- push on [master]
+- use master as default base-branch
+- add create-release-pr.yml and publish-release.yml
+- Add icons for OGV, veOGV and wOUSD ([#1058](https://github.com/rickycodes/contract-metadata/pull/1058))
+- Add Panther Protocol (ZKP) token and logo ([#1066](https://github.com/rickycodes/contract-metadata/pull/1066))
+- add hollaex token ([#1056](https://github.com/rickycodes/contract-metadata/pull/1056))
+- Fixing SVG icon for sETH and sUSD token ([#1050](https://github.com/rickycodes/contract-metadata/pull/1050))
+- feat(map): add Sushiswap (#1) ([#1](https://github.com/rickycodes/contract-metadata/pull/1))
+- Add GTON ([#1060](https://github.com/rickycodes/contract-metadata/pull/1060))
+- Add Privilege (PRVG) token ([#1048](https://github.com/rickycodes/contract-metadata/pull/1048))
+- Added CryptoFranc (XCHF) ([#401](https://github.com/rickycodes/contract-metadata/pull/401))
+- Version 1.35.0 ([#1053](https://github.com/rickycodes/contract-metadata/pull/1053))
+- Adding top nfts contracts on opensea by floor price ([#1052](https://github.com/rickycodes/contract-metadata/pull/1052))
+- New release ([#1045](https://github.com/rickycodes/contract-metadata/pull/1045))
+- Add rpl token image and contract information ([#1023](https://github.com/rickycodes/contract-metadata/pull/1023))
+- Add rETH token image and contract information ([#1022](https://github.com/rickycodes/contract-metadata/pull/1022))
+- Add Nexum Coin Logo and Metadata ([#1038](https://github.com/rickycodes/contract-metadata/pull/1038))
+- add wormhole UST and LUNA ([#1015](https://github.com/rickycodes/contract-metadata/pull/1015))
+- Pad-106 - changed icon for PAD token ([#1035](https://github.com/rickycodes/contract-metadata/pull/1035))
+- Add Safe Token for Ethereum Mainnet.  ([#1034](https://github.com/rickycodes/contract-metadata/pull/1034))
+- Added MFG token - added logo svg image and entry in contract-map.json ([#1028](https://github.com/rickycodes/contract-metadata/pull/1028))
+- Adding ERN token ([#1027](https://github.com/rickycodes/contract-metadata/pull/1027))
+- added superrare gov token ([#1029](https://github.com/rickycodes/contract-metadata/pull/1029))
+- Add (v)COW tokens for Ethereum Mainnet. ([#1024](https://github.com/rickycodes/contract-metadata/pull/1024))
+- Add Floki Token info and logo ([#1021](https://github.com/rickycodes/contract-metadata/pull/1021))
+- Release v1.33.0
+- Add ApeCoin (APE) Token ([#1020](https://github.com/rickycodes/contract-metadata/pull/1020))
+- Adding Tokensoft / Wrapped.com assets ([#966](https://github.com/rickycodes/contract-metadata/pull/966))
+- added ooki logo ([#985](https://github.com/rickycodes/contract-metadata/pull/985))
+- delete embedded png from 2key ([#984](https://github.com/rickycodes/contract-metadata/pull/984))
+- Add xGamma logo and info to metamask ([#1010](https://github.com/rickycodes/contract-metadata/pull/1010))
+- Update README.md ([#1003](https://github.com/rickycodes/contract-metadata/pull/1003))
+- add ACH's token LOGO ([#1016](https://github.com/rickycodes/contract-metadata/pull/1016))
+- Add CIG Token ([#1013](https://github.com/rickycodes/contract-metadata/pull/1013))
+- Add Torum (XTM) Token ([#1017](https://github.com/rickycodes/contract-metadata/pull/1017))
+- Add NIFTY Token ([#962](https://github.com/rickycodes/contract-metadata/pull/962))
+- Change codeowners
+- Adding DiemLibre to MetaMask Crypto-assets ([#1009](https://github.com/rickycodes/contract-metadata/pull/1009))
+- Update Hydro token address ([#1012](https://github.com/rickycodes/contract-metadata/pull/1012))
+- add new RSR ([#1006](https://github.com/rickycodes/contract-metadata/pull/1006))
+- update antimatter logo file ([#1011](https://github.com/rickycodes/contract-metadata/pull/1011))
+- Release v1.32.0
+- Add FCL (Fractal Protocol) ([#1004](https://github.com/rickycodes/contract-metadata/pull/1004))
+- Add gOHM ([#1002](https://github.com/rickycodes/contract-metadata/pull/1002))
+- YIELD App submission ([#903](https://github.com/rickycodes/contract-metadata/pull/903))
+- Revert "Revert "Add ohm v2"" ([#1001](https://github.com/rickycodes/contract-metadata/pull/1001))
+- Revert "Add ohm v2 (#999)" ([#999](https://github.com/rickycodes/contract-metadata/pull/999))
+- Add ohm v2 ([#999](https://github.com/rickycodes/contract-metadata/pull/999))
+- added Near Pad ([#991](https://github.com/rickycodes/contract-metadata/pull/991))
+- Add Kromatika Token ([#978](https://github.com/rickycodes/contract-metadata/pull/978))
+- Add Gamma logo and info to metamask ([#989](https://github.com/rickycodes/contract-metadata/pull/989))
+- update matter contact address ([#983](https://github.com/rickycodes/contract-metadata/pull/983))
+- add aria20 ([#728](https://github.com/rickycodes/contract-metadata/pull/728))
+- Add Hub Token ([#693](https://github.com/rickycodes/contract-metadata/pull/693))
+- Add FOUR token details ([#982](https://github.com/rickycodes/contract-metadata/pull/982))
+- Swash token info ([#958](https://github.com/rickycodes/contract-metadata/pull/958))
+- Add TPSC ([#981](https://github.com/rickycodes/contract-metadata/pull/981))
+- Idle logo addition ([#979](https://github.com/rickycodes/contract-metadata/pull/979))
+- New logo for LTO Network ([#977](https://github.com/rickycodes/contract-metadata/pull/977))
+- Fix ENG decimals ([#976](https://github.com/rickycodes/contract-metadata/pull/976))
+- add SORA tokens: XSTUSD, PSWAP, XOR, VAL ([#972](https://github.com/rickycodes/contract-metadata/pull/972))
+- Add PEOPLE ([#975](https://github.com/rickycodes/contract-metadata/pull/975))
+- Upgrade version to v1.31.0
+- Adding new LTO network token (v2) ([#970](https://github.com/rickycodes/contract-metadata/pull/970))
+- Add ENS contract ([#971](https://github.com/rickycodes/contract-metadata/pull/971))
+- Add EURxb token ([#750](https://github.com/rickycodes/contract-metadata/pull/750))
+- Add BitBase (BTBS) logo 0x32E6C34Cd57087aBBD59B5A4AECC4cB495924356 ([#912](https://github.com/rickycodes/contract-metadata/pull/912))
+- added Tixl ([#934](https://github.com/rickycodes/contract-metadata/pull/934))
+- - Attrace logo + contract-map entry ([#968](https://github.com/rickycodes/contract-metadata/pull/968))
+- Saffron Finance (SFI) ([#965](https://github.com/rickycodes/contract-metadata/pull/965))
+- feat(token): manifold finance (#1) ([#1](https://github.com/rickycodes/contract-metadata/pull/1))
+- Add BAX Erc20 token ([#945](https://github.com/rickycodes/contract-metadata/pull/945))
+- updated blockchain capital svg to valid format ([#950](https://github.com/rickycodes/contract-metadata/pull/950))
+- Update version number to 1.30.0 ([#949](https://github.com/rickycodes/contract-metadata/pull/949))
+- add spwn token ([#939](https://github.com/rickycodes/contract-metadata/pull/939))
+- add stos token ([#940](https://github.com/rickycodes/contract-metadata/pull/940))
+- replaced with a correctly formated png image ([#948](https://github.com/rickycodes/contract-metadata/pull/948))
+- logo ([#947](https://github.com/rickycodes/contract-metadata/pull/947))
+- Add new Streamr DATA Contract Address - rename old ([#943](https://github.com/rickycodes/contract-metadata/pull/943))
+- ArCoin Replacement Token Contract ([#941](https://github.com/rickycodes/contract-metadata/pull/941))
+- Add Million Token (MM) ([#938](https://github.com/rickycodes/contract-metadata/pull/938))
+- Add NWC token ([#712](https://github.com/rickycodes/contract-metadata/pull/712))
+- add cryptokek coin and logo ([#698](https://github.com/rickycodes/contract-metadata/pull/698))
+- Add Insula Token (ISLA) ([#574](https://github.com/rickycodes/contract-metadata/pull/574))
+- Added MYST token to the list. ([#937](https://github.com/rickycodes/contract-metadata/pull/937))
+- Rename PAX token to USDP. ([#936](https://github.com/rickycodes/contract-metadata/pull/936))
+- Add DeHive Logo and info ([#926](https://github.com/rickycodes/contract-metadata/pull/926))
+- Add Polkadog ([#929](https://github.com/rickycodes/contract-metadata/pull/929))
+- Release v1.29.0
+- added BZX tokens ([#914](https://github.com/rickycodes/contract-metadata/pull/914))
+- Add HaloDAO RNBW and xRNBW logos ([#932](https://github.com/rickycodes/contract-metadata/pull/932))
+- Oiler Token added ([#836](https://github.com/rickycodes/contract-metadata/pull/836))
+- update chainswap token info ([#917](https://github.com/rickycodes/contract-metadata/pull/917))
+- update antimatter token info ([#918](https://github.com/rickycodes/contract-metadata/pull/918))
+- Revert "Add HaloDAO RNBW and xRNBW logo (#906)" ([#906](https://github.com/rickycodes/contract-metadata/pull/906))
+- Add HaloDAO RNBW and xRNBW logo ([#906](https://github.com/rickycodes/contract-metadata/pull/906))
+- feat: add maple token to metadata ([#927](https://github.com/rickycodes/contract-metadata/pull/927))
+- ADD BCP Coin ([#915](https://github.com/rickycodes/contract-metadata/pull/915))
+- Add UBT ([#921](https://github.com/rickycodes/contract-metadata/pull/921))
+- Added in Hoge Finance Logo ([#923](https://github.com/rickycodes/contract-metadata/pull/923))
+- Add Axie Infinity Tokens AXS & SLP ([#913](https://github.com/rickycodes/contract-metadata/pull/913))
+- Add `@davidwgrossman` to CODEOWNERS ([#925](https://github.com/rickycodes/contract-metadata/pull/925))
+- Adding INJ to contract-map and token svg ([#922](https://github.com/rickycodes/contract-metadata/pull/922))
+- Adding Vabble Token (VAB) ([#920](https://github.com/rickycodes/contract-metadata/pull/920))
+- Release v1.28.0
+- add Frax (FRAX) and Frax Share (FXS) info ([#899](https://github.com/rickycodes/contract-metadata/pull/899))
+- Update TUSD LOGO ([#904](https://github.com/rickycodes/contract-metadata/pull/904))
+- Add Coreto - COR Token ([#902](https://github.com/rickycodes/contract-metadata/pull/902))
+- add compound collateral token ([#901](https://github.com/rickycodes/contract-metadata/pull/901))
+- Add PUNKS comics ([#898](https://github.com/rickycodes/contract-metadata/pull/898))
+- Add support for CREAM ([#897](https://github.com/rickycodes/contract-metadata/pull/897))
+- Adding dHEDGE DAO Token - DHT ([#857](https://github.com/rickycodes/contract-metadata/pull/857))
+- Add Defi Factory (DEFT) ERC20 Token ([#858](https://github.com/rickycodes/contract-metadata/pull/858))
+- Add PARSIQ (PRQ) ([#885](https://github.com/rickycodes/contract-metadata/pull/885))
+- Add Aave GUSD token ([#893](https://github.com/rickycodes/contract-metadata/pull/893))
+- Add Boson Token. ([#890](https://github.com/rickycodes/contract-metadata/pull/890))
+- Add Formation Finance (FORM) ([#883](https://github.com/rickycodes/contract-metadata/pull/883))
+- add_CR ([#889](https://github.com/rickycodes/contract-metadata/pull/889))
+- Update unFederalReserve UN icons ([#888](https://github.com/rickycodes/contract-metadata/pull/888))
+- Add SPACE token ([#886](https://github.com/rickycodes/contract-metadata/pull/886))
+- Release v1.27.0 ([#884](https://github.com/rickycodes/contract-metadata/pull/884))
+- Add unFederalReserve and UN tokens ([#868](https://github.com/rickycodes/contract-metadata/pull/868))
+- Add VISOR Logo / Information ([#880](https://github.com/rickycodes/contract-metadata/pull/880))
+- Allow 11 char symbols ([#882](https://github.com/rickycodes/contract-metadata/pull/882))
+- Portion Token (https://portion.io) ([#879](https://github.com/rickycodes/contract-metadata/pull/879))
+- Add ArdCoin ([#867](https://github.com/rickycodes/contract-metadata/pull/867))
+- Polkamon renaming ([#874](https://github.com/rickycodes/contract-metadata/pull/874))
+- Add SAND and LAND Token ([#873](https://github.com/rickycodes/contract-metadata/pull/873))
+- Add Dvision Network token (DVI) ([#841](https://github.com/rickycodes/contract-metadata/pull/841))
+- Update yAxis info with new token (YAXIS) ([#819](https://github.com/rickycodes/contract-metadata/pull/819))
+- Remove duplicates
+- change satt logo ([#866](https://github.com/rickycodes/contract-metadata/pull/866))
+- Add Polkamon ([#861](https://github.com/rickycodes/contract-metadata/pull/861))
+- Add Gitcoin (GTC) Support ([#856](https://github.com/rickycodes/contract-metadata/pull/856))
+- Repo standardization ([#851](https://github.com/rickycodes/contract-metadata/pull/851))
+- Adding Tokensoft / Wrapped.com assets ([#832](https://github.com/rickycodes/contract-metadata/pull/832))
+- Release v1.26.0
+- Add NAOS token ([#846](https://github.com/rickycodes/contract-metadata/pull/846))
+- Add SharedStake Governance Token logo and info ([#845](https://github.com/rickycodes/contract-metadata/pull/845))
+- Add Mindsync MAI token ([#839](https://github.com/rickycodes/contract-metadata/pull/839))
+- Add RSR and RSV tokens ([#843](https://github.com/rickycodes/contract-metadata/pull/843))
+- Revert "add rsr and rsv (#787)" ([#787](https://github.com/rickycodes/contract-metadata/pull/787))
+- add rsr and rsv ([#787](https://github.com/rickycodes/contract-metadata/pull/787))
+- Add Collective (CO2) tokens to MetaMask ([#779](https://github.com/rickycodes/contract-metadata/pull/779))
+- Add Kangal info ([#794](https://github.com/rickycodes/contract-metadata/pull/794))
+- Add OPCT (Opacity) Token ([#793](https://github.com/rickycodes/contract-metadata/pull/793))
+- Add keyTango Token (TANGO) ([#831](https://github.com/rickycodes/contract-metadata/pull/831))
+- Add INSUR token ([#835](https://github.com/rickycodes/contract-metadata/pull/835))
+- Add Chainswap TOKEN ([#828](https://github.com/rickycodes/contract-metadata/pull/828))
+- Add Equalizer (EQZ) ERC20 Token ([#834](https://github.com/rickycodes/contract-metadata/pull/834))
+- Add Ares ([#833](https://github.com/rickycodes/contract-metadata/pull/833))
+- Add Fuse token ([#577](https://github.com/rickycodes/contract-metadata/pull/577))
+- Add Zeedex Token ([#623](https://github.com/rickycodes/contract-metadata/pull/623))
+- Add WAVES coin ([#608](https://github.com/rickycodes/contract-metadata/pull/608))
+- Add ARCA Token ([#823](https://github.com/rickycodes/contract-metadata/pull/823))
+- Add Audius ([#818](https://github.com/rickycodes/contract-metadata/pull/818))
+- Release v1.25.0 ([#815](https://github.com/rickycodes/contract-metadata/pull/815))
+- Add Rubic token ([#813](https://github.com/rickycodes/contract-metadata/pull/813))
+- Add FLX ([#812](https://github.com/rickycodes/contract-metadata/pull/812))
+- Add UBI token ([#809](https://github.com/rickycodes/contract-metadata/pull/809))
+- Add RAI token ([#807](https://github.com/rickycodes/contract-metadata/pull/807))
+- Add BASIC Token ([#805](https://github.com/rickycodes/contract-metadata/pull/805))
+- ADD VSP Token / Logo (Vesper.Finance) ([#804](https://github.com/rickycodes/contract-metadata/pull/804))
+- Add elysia ([#802](https://github.com/rickycodes/contract-metadata/pull/802))
+- Add DeGate Token (DG) ([#801](https://github.com/rickycodes/contract-metadata/pull/801))
+- Adding FWB - Friends With Benefits Pro  ([#775](https://github.com/rickycodes/contract-metadata/pull/775))
+- Add SaTT logo and contract-map.json ([#796](https://github.com/rickycodes/contract-metadata/pull/796))
+- :sparkles: Add DF. ([#795](https://github.com/rickycodes/contract-metadata/pull/795))
+- add RNDR ([#789](https://github.com/rickycodes/contract-metadata/pull/789))
+- Add DRT ([#791](https://github.com/rickycodes/contract-metadata/pull/791))
+- Merge Request of AVAL, XGG and DMST ([#786](https://github.com/rickycodes/contract-metadata/pull/786))
+- add antimatter ([#782](https://github.com/rickycodes/contract-metadata/pull/782))
+- Add SYLO ([#781](https://github.com/rickycodes/contract-metadata/pull/781))
+- ADD | NBU token info to MetaMask repository ([#780](https://github.com/rickycodes/contract-metadata/pull/780))
+- Add stETH, LDO, wstETH ([#778](https://github.com/rickycodes/contract-metadata/pull/778))
+- Integration of graphlinq.io ([#768](https://github.com/rickycodes/contract-metadata/pull/768))
+- add BADGER ([#710](https://github.com/rickycodes/contract-metadata/pull/710))
+- Add Mirror Protocol tokens to MetaMask ([#732](https://github.com/rickycodes/contract-metadata/pull/732))
+- Release v1.24.0 ([#772](https://github.com/rickycodes/contract-metadata/pull/772))
+- Add OVR ([#771](https://github.com/rickycodes/contract-metadata/pull/771))
+- add woo ([#766](https://github.com/rickycodes/contract-metadata/pull/766))
+- Add yAxis (YAX & sYAX) tokens ([#753](https://github.com/rickycodes/contract-metadata/pull/753))
+- Replace FKX token address with new address + replace FortKnoxster logo icon ([#757](https://github.com/rickycodes/contract-metadata/pull/757))
+- Add Dracula (DRC) token ([#762](https://github.com/rickycodes/contract-metadata/pull/762))
+- Add Sora Token (XOR) & Sora Validator Token (VAL) ([#759](https://github.com/rickycodes/contract-metadata/pull/759))
+- Update Axion logo ([#761](https://github.com/rickycodes/contract-metadata/pull/761))
+- added RFUEL ([#763](https://github.com/rickycodes/contract-metadata/pull/763))
+- Added JasmyCoin to MetaMask ([#727](https://github.com/rickycodes/contract-metadata/pull/727))
+- Add router protocol token [Etherscan status neutral] ([#743](https://github.com/rickycodes/contract-metadata/pull/743))
+- Add MDX Mandala Exchange Token ([#754](https://github.com/rickycodes/contract-metadata/pull/754))
+- Release v1.23.0
+- Added CRBN.svg Logo to images and updated contract-map.json ([#741](https://github.com/rickycodes/contract-metadata/pull/741))
+- Updated LMY Logo ([#742](https://github.com/rickycodes/contract-metadata/pull/742))
+- QRX Logo Added ([#617](https://github.com/rickycodes/contract-metadata/pull/617))
+- Update DuckDaoDime (DDIM) & DLP Duck Token (DUCK) Logo ([#730](https://github.com/rickycodes/contract-metadata/pull/730))
+- Add Rubic token ([#733](https://github.com/rickycodes/contract-metadata/pull/733))
+- Add new YF Link ecosystem tokens ([#725](https://github.com/rickycodes/contract-metadata/pull/725))
+- Rebranding Change: CAG ([#723](https://github.com/rickycodes/contract-metadata/pull/723))
+- Add support for USDS ([#721](https://github.com/rickycodes/contract-metadata/pull/721))
+- Add Yield ([#711](https://github.com/rickycodes/contract-metadata/pull/711))
+- Add Reef Finance Token (REEF) ([#700](https://github.com/rickycodes/contract-metadata/pull/700))
+- Add DerivaDEX ([#696](https://github.com/rickycodes/contract-metadata/pull/696))
+- Added PERL token ([#722](https://github.com/rickycodes/contract-metadata/pull/722))
+- Pull Request for adding Zoracles (ZORA) Logo ([#716](https://github.com/rickycodes/contract-metadata/pull/716))
+- Release v1.22.0
+- Add PERP ([#717](https://github.com/rickycodes/contract-metadata/pull/717))
+- Add $Poolz Finance ([#715](https://github.com/rickycodes/contract-metadata/pull/715))
+- Update DLP Duck Token Logo ([#714](https://github.com/rickycodes/contract-metadata/pull/714))
+- Add USDx and remove duplicated entry ([#713](https://github.com/rickycodes/contract-metadata/pull/713))
+- Added Bancor's ETHBNT token details ([#421](https://github.com/rickycodes/contract-metadata/pull/421))
+- Add icon for Origin Dollar ([#572](https://github.com/rickycodes/contract-metadata/pull/572))
+- Add Falcon token ([#585](https://github.com/rickycodes/contract-metadata/pull/585))
+- Add CHSB token ([#707](https://github.com/rickycodes/contract-metadata/pull/707))
+- Add MahaDAO (MAHA) to MetaMask ([#709](https://github.com/rickycodes/contract-metadata/pull/709))
+- Add aleph.im token (ALEPH) ([#708](https://github.com/rickycodes/contract-metadata/pull/708))
+- Add CRUST ([#705](https://github.com/rickycodes/contract-metadata/pull/705))
+- Add ROOK token ([#699](https://github.com/rickycodes/contract-metadata/pull/699))
+- 1INCH token address added ([#703](https://github.com/rickycodes/contract-metadata/pull/703))
+- ADD DODO ([#702](https://github.com/rickycodes/contract-metadata/pull/702))
+- Add YFL (YF Link) ([#701](https://github.com/rickycodes/contract-metadata/pull/701))
+- Add Reflect Finance ([#697](https://github.com/rickycodes/contract-metadata/pull/697))
+- Release v1.21.0
+- Add DuckDaoDime (DDIM) and DLP Duck Token (DUCK) to MetaMask ([#695](https://github.com/rickycodes/contract-metadata/pull/695))
+- Add Monerium EUR, USD, GBP and ISK ([#686](https://github.com/rickycodes/contract-metadata/pull/686))
+- Add Graph Token (GRT) ([#684](https://github.com/rickycodes/contract-metadata/pull/684))
+- add WISE Token ([#694](https://github.com/rickycodes/contract-metadata/pull/694))
+- Add PlotX (PLOT) to MetaMask ([#691](https://github.com/rickycodes/contract-metadata/pull/691))
+- Axion Logo ([#688](https://github.com/rickycodes/contract-metadata/pull/688))
+- Add KEEP ([#692](https://github.com/rickycodes/contract-metadata/pull/692))
+- Please Add ELTCOIN ([#685](https://github.com/rickycodes/contract-metadata/pull/685))
+- Add ZAP TOKEN ([#672](https://github.com/rickycodes/contract-metadata/pull/672))
+- Release v1.20.0 ([#681](https://github.com/rickycodes/contract-metadata/pull/681))
+- Add DREAM token ([#407](https://github.com/rickycodes/contract-metadata/pull/407))
+- Add Atari Token ([#680](https://github.com/rickycodes/contract-metadata/pull/680))
+- Revert "Revert "Addition of Aave aTokens and update LEND token name (#460)" (#678)" ([#460](https://github.com/rickycodes/contract-metadata/pull/460))
+- Revert "Addition of Aave aTokens and update LEND token name (#460)" ([#460](https://github.com/rickycodes/contract-metadata/pull/460))
+- Addition of Aave aTokens and update LEND token name ([#460](https://github.com/rickycodes/contract-metadata/pull/460))
+- Add Camp ([#673](https://github.com/rickycodes/contract-metadata/pull/673))
+- Add NEXO ([#671](https://github.com/rickycodes/contract-metadata/pull/671))
+- Add renFIL ([#670](https://github.com/rickycodes/contract-metadata/pull/670))
+- Release v1.19.0
+- Add SKL ([#669](https://github.com/rickycodes/contract-metadata/pull/669))
+- Add LMY Token ([#476](https://github.com/rickycodes/contract-metadata/pull/476))
+- Add USDN stablecoin ([#605](https://github.com/rickycodes/contract-metadata/pull/605))
+- Add FRM ([#665](https://github.com/rickycodes/contract-metadata/pull/665))
+- Add Rupiah Token (IDRT) ([#415](https://github.com/rickycodes/contract-metadata/pull/415))
+- Add renBTC, renZEC & renBCH ([#517](https://github.com/rickycodes/contract-metadata/pull/517))
+- Update LTO logo ([#663](https://github.com/rickycodes/contract-metadata/pull/663))
+- Release v1.18.0
+- Update VEN ([#658](https://github.com/rickycodes/contract-metadata/pull/658))
+- Delete WED ([#657](https://github.com/rickycodes/contract-metadata/pull/657))
+- update SPND ([#656](https://github.com/rickycodes/contract-metadata/pull/656))
+- Update/wbtc ([#655](https://github.com/rickycodes/contract-metadata/pull/655))
+- Remove ego ([#654](https://github.com/rickycodes/contract-metadata/pull/654))
+- Add FTM token ([#653](https://github.com/rickycodes/contract-metadata/pull/653))
+- Add LivenCoin (LVN) Token ([#371](https://github.com/rickycodes/contract-metadata/pull/371))
+- Add REVV ([#565](https://github.com/rickycodes/contract-metadata/pull/565))
+- remove btm icon ([#652](https://github.com/rickycodes/contract-metadata/pull/652))
+- Add Reputation v2 ([#630](https://github.com/rickycodes/contract-metadata/pull/630))
+- Add Aave ([#631](https://github.com/rickycodes/contract-metadata/pull/631))
+- Remove MetaMark ([#628](https://github.com/rickycodes/contract-metadata/pull/628))
+- Remove Divi ([#629](https://github.com/rickycodes/contract-metadata/pull/629))
+- Remove groocoin ([#632](https://github.com/rickycodes/contract-metadata/pull/632))
+- Update usdc icon ([#633](https://github.com/rickycodes/contract-metadata/pull/633))
+- Update USDT icon ([#634](https://github.com/rickycodes/contract-metadata/pull/634))
+- Update TUSD icon ([#635](https://github.com/rickycodes/contract-metadata/pull/635))
+- Update BUSD icon ([#636](https://github.com/rickycodes/contract-metadata/pull/636))
+- Update LEND icon ([#637](https://github.com/rickycodes/contract-metadata/pull/637))
+- Update UNI icon ([#638](https://github.com/rickycodes/contract-metadata/pull/638))
+- Update YFI icon ([#639](https://github.com/rickycodes/contract-metadata/pull/639))
+- Update BAT icon ([#640](https://github.com/rickycodes/contract-metadata/pull/640))
+- Update MANA icon ([#641](https://github.com/rickycodes/contract-metadata/pull/641))
+- Update MKR icon ([#642](https://github.com/rickycodes/contract-metadata/pull/642))
+- Update REN icon and details ([#643](https://github.com/rickycodes/contract-metadata/pull/643))
+- Update ENJ icon and details ([#644](https://github.com/rickycodes/contract-metadata/pull/644))
+- Update WBTC icon ([#645](https://github.com/rickycodes/contract-metadata/pull/645))
+- Update ZEX icon ([#646](https://github.com/rickycodes/contract-metadata/pull/646))
+- Add GLM ([#649](https://github.com/rickycodes/contract-metadata/pull/649))
+- Remove EOS ([#651](https://github.com/rickycodes/contract-metadata/pull/651))
+- Axion ([#648](https://github.com/rickycodes/contract-metadata/pull/648))
+- Add OctoFi ([#566](https://github.com/rickycodes/contract-metadata/pull/566))
+- DKA update ([#545](https://github.com/rickycodes/contract-metadata/pull/545))
+- Resize the BOA logo ([#622](https://github.com/rickycodes/contract-metadata/pull/622))
+- Fix package.json GitHub URLs ([#620](https://github.com/rickycodes/contract-metadata/pull/620))
+- Rename to @metamask/contract-metadata ([#603](https://github.com/rickycodes/contract-metadata/pull/603))
+- Adds orbs ([#619](https://github.com/rickycodes/contract-metadata/pull/619))
+- Mettalex token ([#602](https://github.com/rickycodes/contract-metadata/pull/602))
+- add wisdom token ([#618](https://github.com/rickycodes/contract-metadata/pull/618))
+- Remove Spectiv ([#615](https://github.com/rickycodes/contract-metadata/pull/615))
+- Delete Wyvern not token contracts ([#616](https://github.com/rickycodes/contract-metadata/pull/616))
+- Remove Teleport ([#611](https://github.com/rickycodes/contract-metadata/pull/611))
+- Remove Too real album ([#610](https://github.com/rickycodes/contract-metadata/pull/610))
+- Adding GAME Credits as ERC20 ([#525](https://github.com/rickycodes/contract-metadata/pull/525))
+- Add tBTC ([#609](https://github.com/rickycodes/contract-metadata/pull/609))
+- Add DIAdata ([#548](https://github.com/rickycodes/contract-metadata/pull/548))
+- Add Metal and Proton ([#607](https://github.com/rickycodes/contract-metadata/pull/607))
+- Add license file ([#606](https://github.com/rickycodes/contract-metadata/pull/606))
+- Release 1.17.0 ([#601](https://github.com/rickycodes/contract-metadata/pull/601))
+- remove old storm logo and json ([#599](https://github.com/rickycodes/contract-metadata/pull/599))
+- Update ANTv1 ([#600](https://github.com/rickycodes/contract-metadata/pull/600))
+- Add Energy Web Token Bridged (EWTB) support ([#595](https://github.com/rickycodes/contract-metadata/pull/595))
+- Add ANTv2 ([#598](https://github.com/rickycodes/contract-metadata/pull/598))
+- Update stormx.svg ([#596](https://github.com/rickycodes/contract-metadata/pull/596))
+- Add HEX token ([#594](https://github.com/rickycodes/contract-metadata/pull/594))
+- Add Rarible Governance token ([#559](https://github.com/rickycodes/contract-metadata/pull/559))
+- Add SNTVT ([#586](https://github.com/rickycodes/contract-metadata/pull/586))
+- Add PowerPool ([#593](https://github.com/rickycodes/contract-metadata/pull/593))
+- updated contract address ([#592](https://github.com/rickycodes/contract-metadata/pull/592))
+- add 2KEY token ([#543](https://github.com/rickycodes/contract-metadata/pull/543))
+- Add metronome ([#463](https://github.com/rickycodes/contract-metadata/pull/463))
+- add kton token(Darwinia Network) ([#589](https://github.com/rickycodes/contract-metadata/pull/589))
+- add ring token(Darwinia Network) ([#588](https://github.com/rickycodes/contract-metadata/pull/588))
+- Add BAL (Balancer) ([#579](https://github.com/rickycodes/contract-metadata/pull/579))
+- Add HUSD Info ([#552](https://github.com/rickycodes/contract-metadata/pull/552))
+- Add Block-Chain.com token ([#562](https://github.com/rickycodes/contract-metadata/pull/562))
+- Update VIDT contract address in response to KuCoin hack ([#581](https://github.com/rickycodes/contract-metadata/pull/581))
+- add ampl to contract map ([#501](https://github.com/rickycodes/contract-metadata/pull/501))
+- Add Auctus Token ([#547](https://github.com/rickycodes/contract-metadata/pull/547))
+- Add YFDOT ([#578](https://github.com/rickycodes/contract-metadata/pull/578))
+- Add Bluzelle Token ([#542](https://github.com/rickycodes/contract-metadata/pull/542))
+- Adding ERT token ([#539](https://github.com/rickycodes/contract-metadata/pull/539))
+- Add TOP to list ([#459](https://github.com/rickycodes/contract-metadata/pull/459))
+- add ROOBEE Token ([#520](https://github.com/rickycodes/contract-metadata/pull/520))
+- Add ZCore Token ([#535](https://github.com/rickycodes/contract-metadata/pull/535))
+- Add Dentacoin Token ([#526](https://github.com/rickycodes/contract-metadata/pull/526))
+- update stormx token ([#519](https://github.com/rickycodes/contract-metadata/pull/519))
+- Add mStable tokens ([#518](https://github.com/rickycodes/contract-metadata/pull/518))
+- Add BOA token ([#419](https://github.com/rickycodes/contract-metadata/pull/419))
+- Release 1.16.0 ([#583](https://github.com/rickycodes/contract-metadata/pull/583))
+- Add Skrumble Network V2(SKM) ([#323](https://github.com/rickycodes/contract-metadata/pull/323))
+- Add C10 token ([#310](https://github.com/rickycodes/contract-metadata/pull/310))
+- add RAE Token ([#288](https://github.com/rickycodes/contract-metadata/pull/288))
+- Add PlayDapp token ([#569](https://github.com/rickycodes/contract-metadata/pull/569))
+- Update AERGO contract address due to Kucoin hack ([#575](https://github.com/rickycodes/contract-metadata/pull/575))
+- update logo ([#394](https://github.com/rickycodes/contract-metadata/pull/394))
+- Fit SVG area to content to increase logo size ([#417](https://github.com/rickycodes/contract-metadata/pull/417))
+- Add GET asset ([#564](https://github.com/rickycodes/contract-metadata/pull/564))
+- Add GridPlus GRID Token & Logo ([#533](https://github.com/rickycodes/contract-metadata/pull/533))
+- Add upgraded ADX ([#560](https://github.com/rickycodes/contract-metadata/pull/560))
+- Adding Uniswap ([#573](https://github.com/rickycodes/contract-metadata/pull/573))
+- Add YFI (yearn.finance) ([#554](https://github.com/rickycodes/contract-metadata/pull/554))
+- Add Pillar ([#536](https://github.com/rickycodes/contract-metadata/pull/536))
+- Add Polymath ERC20 logo & details ([#528](https://github.com/rickycodes/contract-metadata/pull/528))
+- Updated LEDU token contract address ([#473](https://github.com/rickycodes/contract-metadata/pull/473))
+- Added Enigma (enigma.co) to json map and added svg logo to images ([#420](https://github.com/rickycodes/contract-metadata/pull/420))
+- Update contract-map.json ([#405](https://github.com/rickycodes/contract-metadata/pull/405))
+- Add Binance USD (BUSD) ([#373](https://github.com/rickycodes/contract-metadata/pull/373))
+- Add paxg ([#372](https://github.com/rickycodes/contract-metadata/pull/372))
+- Swarm (SWM) token update. ([#364](https://github.com/rickycodes/contract-metadata/pull/364))
+- Update link to EIP 747 ([#538](https://github.com/rickycodes/contract-metadata/pull/538))
+- 1.15.0 ([#532](https://github.com/rickycodes/contract-metadata/pull/532))
+- Add cUSDT ([#531](https://github.com/rickycodes/contract-metadata/pull/531))
+- 1.14.0 ([#530](https://github.com/rickycodes/contract-metadata/pull/530))
+- New SNX and sUSD Addresses ([#502](https://github.com/rickycodes/contract-metadata/pull/502))
+- Add COMP token ([#529](https://github.com/rickycodes/contract-metadata/pull/529))
+- Update Aragon (ANT) token icon ([#524](https://github.com/rickycodes/contract-metadata/pull/524))
+- Update README.md ([#522](https://github.com/rickycodes/contract-metadata/pull/522))
+- Update README.md
+- Update and modernize example
+- Update MLN token address ([#396](https://github.com/rickycodes/contract-metadata/pull/396))
+- Add Aergo (AERGO) token ([#456](https://github.com/rickycodes/contract-metadata/pull/456))
+- Add files prop to package.json ([#497](https://github.com/rickycodes/contract-metadata/pull/497))
+- PoolTogether Ticket Tokens ([#466](https://github.com/rickycodes/contract-metadata/pull/466))
+- Update the Compound cToken logos and add cWBTC ([#462](https://github.com/rickycodes/contract-metadata/pull/462))
+- Add Selfkey token (KEY) ([#465](https://github.com/rickycodes/contract-metadata/pull/465))
+- Add xDai STAKE token ([#495](https://github.com/rickycodes/contract-metadata/pull/495))
+- Change HUNT logo ([#457](https://github.com/rickycodes/contract-metadata/pull/457))
+- 1.13.0 ([#494](https://github.com/rickycodes/contract-metadata/pull/494))
+- Add FET Token  ([#491](https://github.com/rickycodes/contract-metadata/pull/491))
+- Add STORM token ([#353](https://github.com/rickycodes/contract-metadata/pull/353))
+- Add UMA token ([#461](https://github.com/rickycodes/contract-metadata/pull/461))
+- Replace DAI logo with DAI badge ([#426](https://github.com/rickycodes/contract-metadata/pull/426))
+- Add details, address, logo ([#432](https://github.com/rickycodes/contract-metadata/pull/432))
+- Add rSAI ([#409](https://github.com/rickycodes/contract-metadata/pull/409))
+- Update contract-map.json
+- Add UMA
+- UMA token logo
+- Describe status of this repository and EIP 747
+- test for overlapping symbols ([#455](https://github.com/rickycodes/contract-metadata/pull/455))
+- Update version to v1.12.1
+- fix symbol for new cDAI ([#449](https://github.com/rickycodes/contract-metadata/pull/449))
+- Update version to v1.12.0
+- Add TLN to list ([#438](https://github.com/rickycodes/contract-metadata/pull/438))
+- Add trailing whitespace to have clean add-only diff with master
+- Merge branch 'master' into add-orchid-oxt-erc20
+- adding USDT logo
+- adding Tether USD metadata
+- Add Orchid (OXT) ERC-20 Token
+- Checksummed address
+- Adding CHAI ERC20 token
+- Rename legacy cDAI -> cSAI (and delete trailing whitespace) ([#413](https://github.com/rickycodes/contract-metadata/pull/413))
+- Prepare full set of changes for multi-collateral DAI transition
+- Bump version
+- move to img folder
+- new dai logo
+- Update contract-map.json
+- Rename legacy cDAI -> cSAI (and delete trailing whitespace)
+- Create dai.svg
+- Version bump for the SAI => DAI change ([#411](https://github.com/rickycodes/contract-metadata/pull/411))
+- Add new logo
+- Remove old logo
+- Update contract-map.json
+- Add raiden logo support ([#406](https://github.com/rickycodes/contract-metadata/pull/406))
+- Fix mln.jpg name.
+- Updating mln token image.
+- Update MLN token address
+- bump ([#358](https://github.com/rickycodes/contract-metadata/pull/358))
+- Added AMLT token ([#357](https://github.com/rickycodes/contract-metadata/pull/357))
+- Add ENQ token. ([#355](https://github.com/rickycodes/contract-metadata/pull/355))
+- Add PLA token ([#349](https://github.com/rickycodes/contract-metadata/pull/349))
+- Add AdEx (ADX) Token ([#347](https://github.com/rickycodes/contract-metadata/pull/347))
+- Adding $MATIC token to MetaMask ([#344](https://github.com/rickycodes/contract-metadata/pull/344))
+- add upx token ([#343](https://github.com/rickycodes/contract-metadata/pull/343))
+- Add LGO Token ([#341](https://github.com/rickycodes/contract-metadata/pull/341))
+- Add CEL token to MetaMask search. ([#333](https://github.com/rickycodes/contract-metadata/pull/333))
+- Add LRC token information ([#329](https://github.com/rickycodes/contract-metadata/pull/329))
+- Drop 🍑 BOOTY 🍑 onto MetaMask ([#328](https://github.com/rickycodes/contract-metadata/pull/328))
+- Update wibson logo ([#327](https://github.com/rickycodes/contract-metadata/pull/327))
+- Add Props Token ([#324](https://github.com/rickycodes/contract-metadata/pull/324))
+- Quantstamp token added ([#308](https://github.com/rickycodes/contract-metadata/pull/308))
+- ajout BTU contract ([#211](https://github.com/rickycodes/contract-metadata/pull/211))
+- v1.9.2 ([#321](https://github.com/rickycodes/contract-metadata/pull/321))
+- metamark ([#320](https://github.com/rickycodes/contract-metadata/pull/320))
+- Add Compound cTokens ([#307](https://github.com/rickycodes/contract-metadata/pull/307))
+- Adding DANK token ([#319](https://github.com/rickycodes/contract-metadata/pull/319))
+- Added SOUL token ([#316](https://github.com/rickycodes/contract-metadata/pull/316))
+- add OGO ERC20 token ([#314](https://github.com/rickycodes/contract-metadata/pull/314))
+- Update STASIS EURS logo ([#312](https://github.com/rickycodes/contract-metadata/pull/312))
+- Add Celer Network Token (CELR) ([#311](https://github.com/rickycodes/contract-metadata/pull/311))
+- Add Neutral Dollar (NUSD) ([#306](https://github.com/rickycodes/contract-metadata/pull/306))
+- Update Metamorph Logo ([#304](https://github.com/rickycodes/contract-metadata/pull/304))
+- Add Su Squares ([#258](https://github.com/rickycodes/contract-metadata/pull/258))
+- Add Chainlink (LINK) Token ([#297](https://github.com/rickycodes/contract-metadata/pull/297))
+- Add HUNT Token ([#284](https://github.com/rickycodes/contract-metadata/pull/284))
+- Update BCAP address ([#199](https://github.com/rickycodes/contract-metadata/pull/199))
+- Add V-ID Token (VIDT) ([#280](https://github.com/rickycodes/contract-metadata/pull/280))
+- Add minds.com ([#301](https://github.com/rickycodes/contract-metadata/pull/301))
+- New livepeer.png with padding ([#315](https://github.com/rickycodes/contract-metadata/pull/315))
+- bump version
+- Add Metamorph ERC20 token ([#296](https://github.com/rickycodes/contract-metadata/pull/296))
+- Add MAS token ([#295](https://github.com/rickycodes/contract-metadata/pull/295))
+- add POP Network Token ([#292](https://github.com/rickycodes/contract-metadata/pull/292))
+- Add the district0x token ([#291](https://github.com/rickycodes/contract-metadata/pull/291))
+- Add WednesdayCoin ([#286](https://github.com/rickycodes/contract-metadata/pull/286))
+- Upload logo of ZEON Network ([#266](https://github.com/rickycodes/contract-metadata/pull/266))
+- Add FOAM Token ([#285](https://github.com/rickycodes/contract-metadata/pull/285))
+- remove deprecated tusd ([#281](https://github.com/rickycodes/contract-metadata/pull/281))
+- adds gitcoin kudos to token list ([#278](https://github.com/rickycodes/contract-metadata/pull/278))
+- Update Decentraland logo ([#276](https://github.com/rickycodes/contract-metadata/pull/276))
+- Fix Kucoin Shares symbol ([#275](https://github.com/rickycodes/contract-metadata/pull/275))
+- Add OST token to contract map ([#272](https://github.com/rickycodes/contract-metadata/pull/272))
+- Update documentation reference to file name ([#257](https://github.com/rickycodes/contract-metadata/pull/257))
+- update pax image to newer branding ([#259](https://github.com/rickycodes/contract-metadata/pull/259))
+- Add LTO Network Token ([#255](https://github.com/rickycodes/contract-metadata/pull/255))
+- Add Remi Token ([#256](https://github.com/rickycodes/contract-metadata/pull/256))
+- Add FKX token ([#254](https://github.com/rickycodes/contract-metadata/pull/254))
+- Add Wibson token ([#252](https://github.com/rickycodes/contract-metadata/pull/252))
+- add erc721
+- restore ck image
+- Switch cryptokitties to erc-721.
+- remove dentacoin
+- remove ck
+- Add icon for Origin Protocol ([#251](https://github.com/rickycodes/contract-metadata/pull/251))
+- add CVL image file and update contract-map.json ([#263](https://github.com/rickycodes/contract-metadata/pull/263))
+- adding gusd, nmr, usdc ([#253](https://github.com/rickycodes/contract-metadata/pull/253))
+- Update contract-map.json
+- Merge branch 'master' into originprotocol
+- Add Request token (again) ([#250](https://github.com/rickycodes/contract-metadata/pull/250))
+- Added BlitzPredict token. ([#245](https://github.com/rickycodes/contract-metadata/pull/245))
+- Add Shaka token ([#244](https://github.com/rickycodes/contract-metadata/pull/244))
+- Adding IOTX token ([#243](https://github.com/rickycodes/contract-metadata/pull/243))
+- Please list NDX token ([#240](https://github.com/rickycodes/contract-metadata/pull/240))
+- Add WBTC ([#235](https://github.com/rickycodes/contract-metadata/pull/235))
+- Add Bether token ([#234](https://github.com/rickycodes/contract-metadata/pull/234))
+- fix comma
+- add icon for Origin Protocol
+- add HERC Token Logo to Metamask! ([#202](https://github.com/rickycodes/contract-metadata/pull/202))
+- add CRO token ([#203](https://github.com/rickycodes/contract-metadata/pull/203))
+- Add GOLD token ([#221](https://github.com/rickycodes/contract-metadata/pull/221))
+- update TrueUSD address ([#226](https://github.com/rickycodes/contract-metadata/pull/226))
+- Merge branch 'master' into master
+- Add Mainframe Token ([#229](https://github.com/rickycodes/contract-metadata/pull/229))
+- Add Neumark token ([#228](https://github.com/rickycodes/contract-metadata/pull/228))
+- Add Wibson token ([#225](https://github.com/rickycodes/contract-metadata/pull/225))
+- Added Menlo One Token ([#224](https://github.com/rickycodes/contract-metadata/pull/224))
+- Added MYB token ([#218](https://github.com/rickycodes/contract-metadata/pull/218))
+- Update contract-map.json
+- Version 1.9.0 ([#217](https://github.com/rickycodes/contract-metadata/pull/217))
+- Add BEE token ([#216](https://github.com/rickycodes/contract-metadata/pull/216))
+- Update HAV to SNX and nUSD to sUSD ([#208](https://github.com/rickycodes/contract-metadata/pull/208))
+- Add SAN token ([#207](https://github.com/rickycodes/contract-metadata/pull/207))
+- Adding KnownOrigin.io ([#179](https://github.com/rickycodes/contract-metadata/pull/179))
+- add Crypto20 token ([#204](https://github.com/rickycodes/contract-metadata/pull/204))
+- updating 0xbitcoin to svg ([#201](https://github.com/rickycodes/contract-metadata/pull/201))
+- Add NFC ([#200](https://github.com/rickycodes/contract-metadata/pull/200))
+- add new token GROO ([#198](https://github.com/rickycodes/contract-metadata/pull/198))
+- Add KNC ([#197](https://github.com/rickycodes/contract-metadata/pull/197))
+- Added On.Live metadata ([#196](https://github.com/rickycodes/contract-metadata/pull/196))
+- Update contract-map.json
+- Add files via upload
+- [ADD] Dether.io Token ([#191](https://github.com/rickycodes/contract-metadata/pull/191))
+- Add Bob's Repair token ([#190](https://github.com/rickycodes/contract-metadata/pull/190))
+- Add TrueUSD ([#189](https://github.com/rickycodes/contract-metadata/pull/189))
+- test: fix discription, five -> six ([#187](https://github.com/rickycodes/contract-metadata/pull/187))
+- Addition of Quant Network QNT token ([#109](https://github.com/rickycodes/contract-metadata/pull/109))
+- Add rightmesh project logo ([#186](https://github.com/rickycodes/contract-metadata/pull/186))
+- Add Swarm (SWM) ([#185](https://github.com/rickycodes/contract-metadata/pull/185))
+- Add Ether Kingdoms Token (IMP) ([#182](https://github.com/rickycodes/contract-metadata/pull/182))
+- Add Dragonglass (DGS) ([#177](https://github.com/rickycodes/contract-metadata/pull/177))
+- Add Streamr (DATA) ([#176](https://github.com/rickycodes/contract-metadata/pull/176))
+- Pareto Network ([#168](https://github.com/rickycodes/contract-metadata/pull/168))
+- updated test ([#175](https://github.com/rickycodes/contract-metadata/pull/175))
+- Add GLA token ([#174](https://github.com/rickycodes/contract-metadata/pull/174))
+- Adding Cpollo ERC20 Token and Cpollo.svg ([#166](https://github.com/rickycodes/contract-metadata/pull/166))
+- Starbase added ([#163](https://github.com/rickycodes/contract-metadata/pull/163))
+- Add Request Network token ([#170](https://github.com/rickycodes/contract-metadata/pull/170))
+- add PLAT ([#140](https://github.com/rickycodes/contract-metadata/pull/140))
+- Paxosglobal/add pax ([#161](https://github.com/rickycodes/contract-metadata/pull/161))
+- SpendCoin ([#165](https://github.com/rickycodes/contract-metadata/pull/165))
+- NEEO token submission ([#159](https://github.com/rickycodes/contract-metadata/pull/159))
+- Added ROCK2 token ([#162](https://github.com/rickycodes/contract-metadata/pull/162))
+- Add POA20 token ([#160](https://github.com/rickycodes/contract-metadata/pull/160))
+- Add DAY token ([#157](https://github.com/rickycodes/contract-metadata/pull/157))
+- Update to CircleCi 2.0 ([#156](https://github.com/rickycodes/contract-metadata/pull/156))
+- remove last circleci
+- fix circleci working directory
+- fix circleci deps
+- update circleci
+- fix json
+- Merge branch 'master' into master
+- Merge branch 'master' into add-brickblock
+- Funfair Token added ([#152](https://github.com/rickycodes/contract-metadata/pull/152))
+- Valid Checksum
+- Funfair Token added
+- Add Disciplina Token image and metadata
+- Adding CLN token ([#148](https://github.com/rickycodes/contract-metadata/pull/148))
+- Adds ETHLend Token ([#144](https://github.com/rickycodes/contract-metadata/pull/144))
+- Adding CLN token
+- Add Pinakion (PNK)
+- Add multiple tokens  ([#146](https://github.com/rickycodes/contract-metadata/pull/146))
+- Update contract-map.json ([#143](https://github.com/rickycodes/contract-metadata/pull/143))
+- Allow symbol five characters ([#137](https://github.com/rickycodes/contract-metadata/pull/137))
+- update VSL decimals according to contract
+- update symbol length test
+- Merge branch 'master' into ast-token
+- Adding JOYSO(JOY) token ([#139](https://github.com/rickycodes/contract-metadata/pull/139))
+- Aion Token Added ([#136](https://github.com/rickycodes/contract-metadata/pull/136))
+- Address CheckSum Validated
+- Please add YGGDRASH Token Information ([#135](https://github.com/rickycodes/contract-metadata/pull/135))
+- Update contract-map.json
+- Adds AST
+- Brickblock (BBK)
+- add validation
+- JOYSO logo and metadata submission
+- update readme
+- test allow symbols with less than 5 characters
+- update vSlice symbol to VSL
+- add YGGDRASH Token Information
+- Aion Token Added
+- Merge branch 'master' into master
+- Added Ely token ([#112](https://github.com/rickycodes/contract-metadata/pull/112))
+- Added REDC ([#133](https://github.com/rickycodes/contract-metadata/pull/133))
+- Added REDC Logo
+- Adds SPANK Token
+- adds SPANK logo
+- Added REDC
+- Add LikeCoin metadata
+- Adds Status Network Token
+- Merge branch 'master' into master
+- adding 0xBitcoin, http://0xbitcoin.org, first pure mined SHA3 token ([#123](https://github.com/rickycodes/contract-metadata/pull/123))
+- Update contract-map.json
+- Add DAOstack GEN token ([#95](https://github.com/rickycodes/contract-metadata/pull/95))
+- STASIS EURS token metadata ([#129](https://github.com/rickycodes/contract-metadata/pull/129))
+- Add Hydro ([#126](https://github.com/rickycodes/contract-metadata/pull/126))
+- STASIS EURS token metadata
+- add box token information ([#122](https://github.com/rickycodes/contract-metadata/pull/122))
+- add Hydro
+- fix DGD decimals according to contract ([#124](https://github.com/rickycodes/contract-metadata/pull/124))
+- fix DGD decimals according to contract
+- adding 0xBitcoin, http://0xbitcoin.org, first pure mined SHA3 token
+- add box token information
+- Add Viewly token
+- Do not allow empty logo ([#117](https://github.com/rickycodes/contract-metadata/pull/117))
+- Add Rchain Rhoc
+- Merge branch 'master' into master
+- add logo for those with empty logo file
+- test do not allow empty logo
+- Added nUSD ([#115](https://github.com/rickycodes/contract-metadata/pull/115))
+- rename token
+- update iExec RLC logo
+- Added nUSD
+- Added Havven
+- Added IQeon (IQN) .svg image and contract-map.json entry ([#110](https://github.com/rickycodes/contract-metadata/pull/110))
+- Add weth ([#94](https://github.com/rickycodes/contract-metadata/pull/94))
+- Added Ely token
+- Update REP Token Address in Metamask
+- Update contract-map.json
+- iqeon.svg
+- Merge branch 'master' into add-weth
+- Version 1.8.0
+- Merge branch 'master' into master
+- Add Ink Protocol (XNK) ([#101](https://github.com/rickycodes/contract-metadata/pull/101))
+- added herocoin to contract-map.json ([#98](https://github.com/rickycodes/contract-metadata/pull/98))
+- Add NANJCOIN ([#97](https://github.com/rickycodes/contract-metadata/pull/97))
+- Hut 34 ENTRP token added to metadata ([#93](https://github.com/rickycodes/contract-metadata/pull/93))
+- Add SPN token ([#84](https://github.com/rickycodes/contract-metadata/pull/84))
+- add BMX token ([#87](https://github.com/rickycodes/contract-metadata/pull/87))
+- Add Ink Protocol (XNK) SVG file
+- Add Ink Protocol (XNK)
+- Merge branch 'master' into polyswarm
+- added herocoin to contract-map.json added herocoin logo
+- Add NANJCOIN
+- Add DAOstack to contract-metadata
+- Add DAOstack logo
+- Add weth logo
+- Add entry for WETH in contract-map.json
+- added ENTRP.png icon
+- Added Hut34 Entropy Token
+- Add VDOC Token ([#79](https://github.com/rickycodes/contract-metadata/pull/79))
+- update Criteria
+- require good standing reputation on etherscan as a criteria
+- add Dai ([#86](https://github.com/rickycodes/contract-metadata/pull/86))
+- Emphasize the list's difficulty to maintain
+- BitMart info
+- BitMart info
+- BitMart info
+- change address to eip 55 checksum
+- dai stablecoin v1.0
+- add dai img and address
+- Add SPN token
+- Adds J8T token
+- Add PolySwarm Nectar (NCT)
+- Change in VDOC Logo Name
+- Change VDOC image
+- Add VDOC Image
+- adds loom network token ([#78](https://github.com/rickycodes/contract-metadata/pull/78))
+- change address format
+- update MKR address after token upgrade
+- EDU (Education) Token ([#59](https://github.com/rickycodes/contract-metadata/pull/59))
+- Add REN Token (Republic Protocol) ([#60](https://github.com/rickycodes/contract-metadata/pull/60))
+- Added 0x ([#71](https://github.com/rickycodes/contract-metadata/pull/71))
+- Add refined criteria for addition
+- adds loom network token
+- Fix build error
+- Added Zilliqa logo
+- Added ZIL token information
+- Fixed test failure
+- Added 0x
+- Added VDOC image
+- Renaming logo file
+- Added VDOC
+- dutyof.care logo
+- Gitcoin add ([#65](https://github.com/rickycodes/contract-metadata/pull/65))
+- Delete Gitcoin.png
+- add StandardBounties.png
+- gitcoin to StandardBounties
+- 1.7.0
+- fix non-checksum addresses
+- erc20 - storj - fix decimals
+- erc20 - add omg
+- erc20 - add storj
+- erc20 - add decentraland
+- lint - normalize json format
+- 1.6.0
+- Add WyvernProxyRegistry & WyvernExchange contracts ([#63](https://github.com/rickycodes/contract-metadata/pull/63))
+- remove space from xsc logo
+- test - dont allow spaces in path
+- test - check for image exact path match
+- clean - remove tmp file
+- gitignore - ignore standard os tmp files
+- update address
+- add gitcoin
+- add Gitcoin
+- Add WyvernProxyRegistry & WyvernExchange contracts
+- Added REN logo and details
+- Updated token name to just "EDU Token"
+- Added LiveEdu EDU (Education) Token
+- Version 1.5.0
+- HelloGold have retired GBT and launched GOLDX ([#55](https://github.com/rickycodes/contract-metadata/pull/55))
+- Added metadata for CrowdstartCoin / XSC ([#49](https://github.com/rickycodes/contract-metadata/pull/49))
+- Upload XSC Logo.svg
+- Delete XSC Logo.jpg
+- HelloGold have retired GBT and launched GOLDX
+- Update contract-map.json
+- Add WyvernToken & WyvernDAO contract mappings ([#53](https://github.com/rickycodes/contract-metadata/pull/53))
+- Version 1.4.2
+- Version 1.4.1
+- Scale up cryptokitty logo
+- adding BitClave's CAT token ([#47](https://github.com/rickycodes/contract-metadata/pull/47))
+- Update CanYa Logo ([#52](https://github.com/rickycodes/contract-metadata/pull/52))
+- Adding Appcoins to Popular Token List ([#50](https://github.com/rickycodes/contract-metadata/pull/50))
+- Adding Appcoins to popular token | Correction
+- Version 1.4.0
+- Add WyvernToken & WyvernDAO contract mappings
+- Update CanYa Logo
+- Adding Appcoins to popular token list (Img Upload)
+- Adding AppCoins (APPC) to popular token list
+- Update contract-map.json
+- Added XSC Logo
+- updated contract address to pass the CRC check
+- Update contract-map.json
+- Add Refereum (RFR) ERC20 contract. ([#44](https://github.com/rickycodes/contract-metadata/pull/44))
+- Merge branch 'master' into master
+- Adding Spectiv token + crowdsale ([#45](https://github.com/rickycodes/contract-metadata/pull/45))
+- Merge branch 'master' into master
+- Merge branch 'master' into master
+- Merge branch 'master' into master
+- Adding BlockMason Credit Protocol Token ([#34](https://github.com/rickycodes/contract-metadata/pull/34))
+- Merge branch 'master' into master
+- Merge branch 'master' into master
+- Merge branch 'master' into greenkeeper/initial
+- Add DIVX Logo
+- Add DIVX to contract-map
+- added logo for BCL token
+- added BCL token
+- Add Playkey Token
+- Updating Spectiv contract addresses
+- Need to use checksummed addresses
+- Adding Spectiv token + crowdsale
+- Rename RFR.svg to rfr.svg
+- Add RFR contract.
+- Add RFR token image.
+- Add Crypto Kitties to contract-map
+- Add CryptoKitties image
+- Merge branch 'master' into master
+- Added HelloGold Gold Backed Token
+- Add GEE Token
+- Added MOD Token
+- 1.3.0
+- Delete melonport-1.svg
+- fix bad json
+- fix bad master merge
+- Merge branch 'master' into master
+- Too Real Badge
+- CanYa: round icon
+- CanYaCoin Details
+- CanYa token logo
+- Uppercase for Mason
+- Added BCPT Token
+- Merge branch 'master' into greenkeeper/initial
+- Merge branch 'master' into master
+- Changed Maecenas token address to checksum format
+- Version 1.2.0
+- Added Maecenas ART Token
+- Merge branch 'master' into master
+- Merge branch 'master' of https://github.com/DaveAppleton/eth-contract-metadata
+- Square Indorse Logo
+- Merge branch 'master' into master
+- Specify that images should be square.
+- Adding Rivetz (RVT) to the popular token list.
+- Added Change Coin
+- Added Qtum
+- Indorse and JET
+- Merge branch 'master' into master
+- Add files via upload
+- Update contract-map.json
+- HGT added
+- Added checksum contract addresses for NEVERDIE Coin and Teleport Token
+- Add NEVERDIE Coin and Teleport Token to the list
+- Version 1.1.5
+- Merge branch 'simon-rac' of github.com:MetaMask/eth-contract-metadata into simon-rac
+- Correct address formatting for RAC EGO
+- Merge branch 'master' into simon-rac
+- Updates REP contract address.
+- Added EGO album badge.
+- Merge branch 'master' of github.com:MetaMask/eth-contract-metadata
+- Version 1.1.4
+- Merge branch 'master' into issue/Add-EOS-#17
+- Update EOS logo
+- Add EOS metadata & logo
+- Update contract-map.json
+- Update contract-map.json
+- Added in contact-json info for Melon
+- Added Melon Symbol
+- docs(readme): add Greenkeeper badge
+- Version 1.1.2
+- Add MetaMark Token
+- Version 1.1.2
+- Add bancor metadata & icon ([#10](https://github.com/rickycodes/contract-metadata/pull/10))
+- Add bancor metadata & icon
+- Version 1.1.1
+- Correct mkr precision
+- Version 1.1.0
+- Update addresses to proper checksum format; remove transparent logos
+- Remove unpermitted fields from metadata map
+- Add permitted fields test enforcement
+- Remove stray invalid character
+- Added metadata for token contracts based off etherscan.io/tokens
+- Update status badge
+- Fix readme
+- Refactored to be generic contract metadata map
+- Add usage guide
+- Update status badge
+- Add circle.yml
+- Add contributing guide
+- Add submission guide
+- Add Readme
+- Add checksum
+- First commit: ENS registrar icon
+
+[Unreleased]: https://github.com/rickycodes/contract-metadata/compare/v1.35.1...HEAD
+[1.35.1]: https://github.com/rickycodes/contract-metadata/releases/tag/v1.35.1
